@@ -4,15 +4,15 @@ A ROS package that converts point cloud data (PCD files) to 2D occupancy grid ma
 
 ## Features
 
-- Converts PCD files to 2D occupancy grid maps
+- Converts PCD files to 2D occupancy grid maps for move_base (tested)
 - Configurable Z-axis filtering
 - Adjustable map resolution
 - Continuous map publishing
-- ROS1 and ROS2 compatible implementations
+
 
 ## Dependencies
 
-- ROS (Noetic or later)
+- ROS (Noetic)
 - PCL (Point Cloud Library)
 - sensor_msgs
 - nav_msgs
