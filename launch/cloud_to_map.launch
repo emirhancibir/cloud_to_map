@@ -1,0 +1,7 @@
+<launch>
+  <node name="cloud_to_map_node" pkg="cloud_to_map" type="cloud_to_map_node" output="screen">
+    <param name="pcd_file" value="/home/servantw1500n01/pcds/liorf/GlobalMap.pcd"/>
+    <param name="min_z" value="0.0"/>  <!-- Minimum z değeri -->
+    <param name="max_z" value="2.5"/>  <!-- Maksimum z değeri -->
+  </node>
+</launch>
